@@ -34,6 +34,5 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          context: .
           push: true
-          tags: marcelokamei/ci-fc2.0/app:latest
+          tags: marcelokamei/ci-fc2.0:latest
